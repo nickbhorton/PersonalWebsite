@@ -1,9 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Nicholas Horton" />
+        <meta name="description" content="A personal website providing information about me, my education, and my work in software development" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                "HTML-CSS": { 
+                    styles: {".MathJax_Display": {margin: "0em", color: "#222222"}} 
+                    },
+                displayAlign: "left"
+            });
+        </script>
+        <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <link rel="stylesheet" href="css/index.css">
         <title>Nick Horton</title>
     </head>
+    
     <body>
-        Deployment Test
+        <header>
+            <div class="header_container">
+                <a href="https://github.com/nickbhorton" target="_blank">
+                    <img src="images/github.png" class="github_icon" alt="github icon">
+                </a>
+                <h1 class="header_name">Nicholas Horton</h1>
+            </div>
+        </header>
+
+
+        <div class="mechanics_div">
+            <div class="eq_container">
+                <p class="eq">$$\mathscr{L}=T-U$$</p>
+                <p class="eq">$$\mathscr{L}=\frac{1}{2}m\left(\dot{\rho}^{2} + \rho^{2} \dot{\phi}^{2}\right) - mg\rho^{2}$$</p>
+                <p class="eq">$$\frac{\partial \mathscr{L}}{\partial \rho } = m \rho \dot{\phi}^{2} - 2mg\rho$$</p>
+                <p class="eq">$$\frac{\partial \mathscr{L}}{\partial \dot{\rho}} = m\rho$$</p>
+                <p class="eq">$$\frac{\partial \mathscr{L}}{\partial \phi} = 0$$</p>
+                <p class="eq">$$\frac{\partial \mathscr{L}}{\partial \dot{\phi}} = m\rho^{2} \dot{\phi}$$</p>
+            </div>
+        </div>
     </body>
 </html>
